@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "tombstoneall:block/grave",
+    "stone": "tombstoneall:block/grave",
+    "front": "tombstoneall:block/grave_front",
+    "dirt": "minecraft:block/coarse_dirt"
+  },
+  "elements": [
+    {
+      "from": [1, 0, 1], "to": [15, 2, 15],
+      "faces": {
+        "down":  { "uv": [1, 1, 15, 15], "texture": "#stone", "cullface": "down" },
+        "up":    { "uv": [1, 1, 15, 15], "texture": "#dirt" },
+        "north": { "uv": [1, 14, 15, 16], "texture": "#stone" },
+        "south": { "uv": [1, 14, 15, 16], "texture": "#stone" },
+        "west":  { "uv": [1, 14, 15, 16], "texture": "#stone" },
+        "east":  { "uv": [1, 14, 15, 16], "texture": "#stone" }
+      }
+    },
+    {
+      "from": [2, 2, 11], "to": [14, 13, 14],
+      "faces": {
+        "north": { "uv": [2, 3, 14, 14], "texture": "#front" },
+        "south": { "uv": [2, 3, 14, 14], "texture": "#stone" },
+        "west":  { "uv": [11, 3, 14, 14], "texture": "#stone" },
+        "east":  { "uv": [2, 3, 5, 14], "texture": "#stone" },
+        "up":    { "uv": [2, 11, 14, 14], "texture": "#stone" }
+      }
+    },
+    {
+      "from": [4, 13, 11], "to": [12, 15, 14],
+      "faces": {
+        "north": { "uv": [4, 1, 12, 3], "texture": "#front" },
+        "south": { "uv": [4, 1, 12, 3], "texture": "#stone" },
+        "west":  { "uv": [11, 1, 14, 3], "texture": "#stone" },
+        "east":  { "uv": [2, 1, 5, 3], "texture": "#stone" },
+        "up":    { "uv": [4, 11, 12, 14], "texture": "#stone" }
+      }
+    }
+  ]
+}

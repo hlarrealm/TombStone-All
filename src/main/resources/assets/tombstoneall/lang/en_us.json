@@ -1,0 +1,9 @@
+{
+  "block.tombstoneall.grave": "Grave",
+  "item.tombstoneall.grave_key": "Grave Key",
+  "message.tombstoneall.grave_created": "Your items are safe in a grave at %s, %s, %s (%s).",
+  "message.tombstoneall.grave_reminder": "Your grave is waiting for you at %s, %s, %s. Right-click it to get your items back.",
+  "message.tombstoneall.not_owner": "This grave belongs to %s. Only the owner can open it.",
+  "message.tombstoneall.recovered": "You recovered your items and experience.",
+  "message.tombstoneall.key_location": "Grave location:"
+}

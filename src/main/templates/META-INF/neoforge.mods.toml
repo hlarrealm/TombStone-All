@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "tombstoneall"
+version = "1.0.0"
+displayName = "TombStone All"
+logoFile = "logo.png"
+authors = "Brigitte Casilla"
+description = '''When you die, your items and experience are kept safe in a grave at the place of death. Only the owner can open the grave: right-click it to get everything back. You also get a Grave Key that shows where your grave is.'''
+
+[[dependencies.tombstoneall]]
+    modId = "neoforge"
+    type = "required"
+    versionRange = "[26.3,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.tombstoneall]]
+    modId = "minecraft"
+    type = "required"
+    versionRange = "[26.3,26.4)"
+    ordering = "NONE"
+    side = "BOTH"

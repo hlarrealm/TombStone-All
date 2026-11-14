@@ -1,0 +1,9 @@
+{
+  "block.tombstoneall.grave": "Tumba",
+  "item.tombstoneall.grave_key": "Llave de tumba",
+  "message.tombstoneall.grave_created": "Tus cosas están a salvo en una tumba en %s, %s, %s (%s).",
+  "message.tombstoneall.grave_reminder": "Tu tumba te espera en %s, %s, %s. Haz clic derecho en ella para recuperar tus cosas.",
+  "message.tombstoneall.not_owner": "Esta tumba pertenece a %s. Solo su dueño puede abrirla.",
+  "message.tombstoneall.recovered": "Recuperaste tus cosas y tu experiencia.",
+  "message.tombstoneall.key_location": "Ubicación de la tumba:"
+}
