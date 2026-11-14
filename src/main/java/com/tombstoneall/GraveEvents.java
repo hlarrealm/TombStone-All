@@ -123,7 +123,7 @@ public final class GraveEvents {
         }
         ItemStack key = GraveKeyItem.createKey(info.level(), info.pos());
         if (!player.getInventory().add(key)) {
-            player.drop(key, false);
+            net.minecraft.world.Containers.dropItemStack(player.level(), player.getX(), player.getY(), player.getZ(), key);
         }
         player.sendSystemMessage(Component.translatable("message.tombstoneall.grave_reminder",
                 info.pos().getX(), info.pos().getY(), info.pos().getZ()).withStyle(ChatFormatting.GOLD));

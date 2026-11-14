@@ -7,7 +7,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.PushReaction;
 import net.neoforged.bus.api.EventPriority;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
@@ -33,7 +32,6 @@ public class TombStoneAll {
                     .setId(ResourceKey.create(Registries.BLOCK, id))
                     .strength(-1.0F, 3600000.0F)
                     .sound(SoundType.STONE)
-                    .pushReaction(PushReaction.BLOCK)
                     .noOcclusion()
                     .noLootTable()
                     .lightLevel(state -> 4)));
